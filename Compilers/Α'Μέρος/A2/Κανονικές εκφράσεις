@@ -1,0 +1,43 @@
+^((\+|-)[1-9]|[1-9])[0-9]*$      1o
+
+-53980
+-5
+0
+0454
++607
+6436
+603
+10000
+
+^([a-z]|[A-Z])(\d|[a-z]|[A-Z]|[-_])*$ 2o
+
+
+^\?(\d|[a-z]|[A-Z])*$ 3o
+
+?ths
+?sdfA13
+?435
+?x
+?X
+?3
+?ad
+?X1b23
+?32Hf
+?ABcd1234de
+
+^deffacts|defrule$ 4o
+
+deffacts
+defrule
+
+^test|printout$ 5o
+
+^=|\+|-|\*|\/$ 6o
+
+^;.*$ 7o
+
+;JDF;SDJF;ASDFASJDF875	245
+;S8WOPIEUWJETSHGPSKJBDGDJFGUW84T2Y528Y75-29(*^&$%#&$@#@$#!!
+7-72-352-3
+
+^ |\n|\Z|\(|\)$ 8o

@@ -1,0 +1,10 @@
+#define DELIMITER 1
+#define INTCONST 2
+#define VARIABLE 3
+#define ARGUMENT 4
+#define RESERVED1 5
+#define RESERVED2 6
+#define RESERVED3 7
+#define COMMENTS 8
+#define SEPARATOR 9
+#define UNKNOWN 10

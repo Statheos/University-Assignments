@@ -1,0 +1,121 @@
+SHMEIWSEIS FLEX.
+
+PARAGEI KWDIKA C
+
+KLASSIKA COMPILE AND RUN.
+VGENW ME Ctrl + D
+
+XWRIZW TON KWDIKA SE KOMMATIA ME TO SYMVOLO %%
+
+PERIOXH KANONWN.
+/n TAB KANONES MESA SE {}.
+MESA STIN MAIN PANTA MA PANTA THA YPARXEI H YYLEX();
+
+atoi=asci to integer.
+metatrepei xarakthres se arithmus
+
+PROGRAMMA:
+%{
+    #include <stdio.h>
+    int num_lines=0,num_chars=0;
+%}
+
+%%
+
+\n  {num_lines++;num_chars++;}
+.   {num_chars++;}
+
+%%
+
+    int main()
+    {
+        yylex();
+        printf("# of lines=%d\n",num_lines);
+        printf("# of chars=%d\n",num_chars);
+    }
+
+PWS TREXW:
+flex -o a1.c a1.l
+gcc -o a1 a1.c -lfl
+./a1
+
+PROGRAMMA 2:
+%option noyywrap
+
+%{ 
+    #include <stdio.h>
+%}
+
+binary [01]+
+
+%%
+
+{binary} {ECHO; printf("\n");}
+.        {}
+
+%%
+
+    int main()
+    {
+        yylex();
+    }
+    
+PWS TREXW:
+flex -o a2.c a2.l
+gcc -o a2 a2.c
+./a2
+
+PROGRAMMA 3:
+%option noyywrap
+
+%{ 
+    #include <stdio.h>
+%}
+
+binary [01]+
+
+%%
+
+{binary} {ECHO; printf("\n");}
+.        {}
+
+%%
+
+int main(int argc,char **argv)
+{
+    int i;
+    if(argc == 2)
+        yyin=fopen(argv[1],"r");
+    else
+        yyin=stdin;
+    yylex();
+}
+
+PWS TREXW:
+flex -o a3.c a3.l
+gcc -o a3 a3.c
+./a3
+
+PROGRAMMA 5:
+int main (int argc, char **argv)
+{
+     if(argc==3){
+         if(!(yyin+fopen(argv[1], "r"))) {
+             fprintf(stderr, "Cannot read file: %s\n", argv[1]);
+             return 1;
+          } 
+     if(!(yyin+fopen(argv[2], "w"))) {
+             fprintf(stderr, "Cannot create file: %s\n", argv[2]);
+             return 1;
+            }
+}
+     else if(!(yyin+fopen(argv[3], "r"))) {
+             fprintf(stderr, "Cannot read file: %s\n", argv[1]);
+             return 1;
+}
+yylex();
+}
+
+TREXW OPWS PRIN.
+
+PROGRAMMA 6:

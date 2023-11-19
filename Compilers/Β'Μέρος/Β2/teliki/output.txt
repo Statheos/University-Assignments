@@ -1,0 +1,352 @@
+	Flex -> Matched token: (
+	Flex -> Matched token: deffacts
+	Flex -> Matched token: static-facts
+	Flex -> Matched token: (
+	Flex -> Matched token: food-at
+	Flex -> Matched token: 4
+	Flex -> Matched token: 2
+	Flex -> Matched token: )
+	Flex -> Matched token: (
+	Flex -> Matched token: food-at
+	Flex -> Matched token: 5
+	Flex -> Matched token: 2
+	Flex -> Matched token: )
+	Flex -> Matched token: )
+0
+	Flex -> Matched token: (
+	Flex -> Matched token: deffacts
+	Flex -> Matched token: dynamic-facts
+	Flex -> Matched token: (
+	Flex -> Matched token: packman-at
+	Flex -> Matched token: )
+	Flex -> Matched token: (
+	Flex -> Matched token: hi
+	Flex -> Matched token: )
+	Flex -> Matched token: (
+	Flex -> Matched token: bye
+	Flex -> Matched token: )
+	Flex -> Matched token: )
+0
+	Flex -> Matched token: (
+	Flex -> Matched token: deffacts
+	Flex -> Matched token: dynamic-facts
+	Flex -> Matched token: (
+	Flex -> Matched token: packman-at
+	Flex -> Matched token: 5
+	Flex -> Matched token: 2
+	Flex -> Matched token: )
+	Flex -> Matched token: )
+0
+	Flex -> Matched token: (
+	Flex -> Matched token: deffacts
+	Flex -> Matched token: dynamic-facts
+	Flex -> Matched token: (
+	Flex -> Matched token: packman-at
+	Flex -> Matched token: )
+	Flex -> Matched token: )
+0
+	Flex -> Matched token: (
+	Flex -> Matched token: deffacts
+	Flex -> Matched token: dynamic6
+	Flex -> Matched token: (
+	Flex -> Matched token: pack
+	Flex -> Matched token: )
+	Flex -> Matched token: )
+0
+	Flex -> Matched token: (
+	Flex -> Matched token: Costas
+	Flex -> Matched token: )
+0
+	Flex -> Matched token: (
+	Flex -> Matched token: costas
+	Flex -> Matched token: 6
+	Flex -> Matched token: )
+0
+	Flex -> Matched token: (
+	Flex -> Matched token: Costas
+	Flex -> Matched token: is_a
+	Flex -> Matched token: really
+	Flex -> Matched token: good
+	Flex -> Matched token: student
+	Flex -> Matched token: )
+0
+	Flex -> Matched token: (
+	Flex -> Matched token: His-AM_is_161041
+	Flex -> Matched token: )
+0
+	Flex -> Matched token: (
+	Flex -> Matched token: Impossible
+	Flex -> Matched token: is
+	Flex -> Matched token: just
+	Flex -> Matched token: an
+	Flex -> Matched token: opinion
+	Flex -> Matched token: )
+0
+	Flex -> Matched token: (
+	Flex -> Matched token: THE
+	Flex -> Matched token: PARSER
+	Flex -> Matched token: WORKS
+	Flex -> Matched token: )
+0
+	Flex -> Matched token: (
+	Flex -> Matched token: printout t
+	Flex -> Matched token: (
+	Flex -> Matched token: This
+	Flex -> Matched token: is
+	Flex -> Matched token: good
+	Flex -> Matched token: )
+	Flex -> Matched token: )
+
+)
+0
+	Flex -> Matched token: (
+	Flex -> Matched token: printout t
+	Flex -> Matched token: (
+	Flex -> Matched token: This-is-a-test
+	Flex -> Matched token: )
+	Flex -> Matched token: )
+
+)
+0
+	Flex -> Matched token: (
+	Flex -> Matched token: bind
+	Flex -> Matched token: ?var
+	Flex -> Matched token: 15
+	Flex -> Matched token: )
+0
+	Flex -> Matched token: (
+	Flex -> Matched token: bind
+	Flex -> Matched token: ?num
+	Flex -> Matched token: 6
+	Flex -> Matched token: )
+0
+	Flex -> Matched token: (
+	Flex -> Matched token: =
+	Flex -> Matched token: 5
+	Flex -> Matched token: 6
+	Flex -> Matched token: )
+0
+	Flex -> Matched token: (
+	Flex -> Matched token: =
+	Flex -> Matched token: ?var
+	Flex -> Matched token: ?x
+	Flex -> Matched token: )
+1
+	Flex -> Matched token: (
+	Flex -> Matched token: =
+	Flex -> Matched token: (
+	Flex -> Matched token: +
+	Flex -> Matched token: ?num
+	Flex -> Matched token: 2
+	Flex -> Matched token: )
+	Flex -> Matched token: ?x
+	Flex -> Matched token: )
+0
+	Flex -> Matched token: (
+	Flex -> Matched token: =
+	Flex -> Matched token: 100
+	Flex -> Matched token: (
+	Flex -> Matched token: +
+	Flex -> Matched token: ?num
+	Flex -> Matched token: 2
+	Flex -> Matched token: )
+	Flex -> Matched token: )
+0
+	Flex -> Matched token: (
+	Flex -> Matched token: =
+	Flex -> Matched token: ?num
+	Flex -> Matched token: 2
+	Flex -> Matched token: )
+0
+	Flex -> Matched token: (
+	Flex -> Matched token: +
+	Flex -> Matched token: +5
+	Flex -> Matched token: -6
+	Flex -> Matched token: )
+-1
+	Flex -> Matched token: (
+	Flex -> Matched token: -
+	Flex -> Matched token: +3
+	Flex -> Matched token: -20
+	Flex -> Matched token: ?x
+	Flex -> Matched token: )
+23
+	Flex -> Matched token: (
+	Flex -> Matched token: *
+	Flex -> Matched token: ?num
+	Flex -> Matched token: ?x
+	Flex -> Matched token: )
+0
+	Flex -> Matched token: (
+	Flex -> Matched token: +
+	Flex -> Matched token: 5
+	Flex -> Matched token: +6
+	Flex -> Matched token: 7
+	Flex -> Matched token: -7
+	Flex -> Matched token: )
+11
+	Flex -> Matched token: (
+	Flex -> Matched token: +
+	Flex -> Matched token: 4
+	Flex -> Matched token: 7
+	Flex -> Matched token: )
+11
+	Flex -> Matched token: (
+	Flex -> Matched token: *
+	Flex -> Matched token: ?var
+	Flex -> Matched token: ?x
+	Flex -> Matched token: )
+0
+	Flex -> Matched token: (
+	Flex -> Matched token: +
+	Flex -> Matched token: ?var
+	Flex -> Matched token: ?x
+	Flex -> Matched token: 5
+	Flex -> Matched token: )
+5
+	Flex -> Matched token: (
+	Flex -> Matched token: -
+	Flex -> Matched token: 5
+	Flex -> Matched token: 72
+	Flex -> Matched token: 5
+	Flex -> Matched token: )
+-72
+	Flex -> Matched token: (
+	Flex -> Matched token: -
+	Flex -> Matched token: ?var
+	Flex -> Matched token: 5
+	Flex -> Matched token: 1
+	Flex -> Matched token: )
+-6
+	Flex -> Matched token: (
+	Flex -> Matched token: /
+	Flex -> Matched token: ?x
+	Flex -> Matched token: 2
+	Flex -> Matched token: 1
+	Flex -> Matched token: )
+divide by zero
+0
+	Flex -> Matched token: (
+	Flex -> Matched token: /
+	Flex -> Matched token: 6
+	Flex -> Matched token: 3
+	Flex -> Matched token: )
+2
+	Flex -> Matched token: (
+	Flex -> Matched token: /
+	Flex -> Matched token: -6
+	Flex -> Matched token: 2
+	Flex -> Matched token: )
+-3
+	Flex -> Matched token: (
+	Flex -> Matched token: *
+	Flex -> Matched token: 4
+	Flex -> Matched token: 2
+	Flex -> Matched token: 6
+	Flex -> Matched token: 1
+	Flex -> Matched token: -7
+	Flex -> Matched token: 23
+	Flex -> Matched token: 0
+	Flex -> Matched token: )
+0
+	Flex -> Matched token: (
+	Flex -> Matched token: -
+	Flex -> Matched token: 4
+	Flex -> Matched token: 2
+	Flex -> Matched token: 666
+	Flex -> Matched token: 1
+	Flex -> Matched token: -7
+	Flex -> Matched token: 23
+	Flex -> Matched token: 0
+	Flex -> Matched token: )
+-681
+	Flex -> Matched token: (
+	Flex -> Matched token: defrule
+	Flex -> Matched token: MOVE-UP
+	Flex -> Matched token: (
+	Flex -> Matched token: packman-at
+	Flex -> Matched token: ?x
+	Flex -> Matched token: ?y
+	Flex -> Matched token: )
+	Flex -> Matched token: )
+0
+	Flex -> Matched token: (
+	Flex -> Matched token: food-at
+	Flex -> Matched token: ?z
+	Flex -> Matched token: ?y
+	Flex -> Matched token: )
+0
+	Flex -> Matched token: ->
+0
+	Flex -> Matched token: (
+	Flex -> Matched token: printout t
+	Flex -> Matched token: (
+	Flex -> Matched token: packman
+	Flex -> Matched token: has
+	Flex -> Matched token: reached
+	Flex -> Matched token: food
+	Flex -> Matched token: )
+	Flex -> Matched token: )
+
+)
+0
+	Flex -> Matched token: (
+	Flex -> Matched token: defrule
+	Flex -> Matched token: MOVE_down
+	Flex -> Matched token: (
+	Flex -> Matched token: packman-at
+	Flex -> Matched token: 5
+	Flex -> Matched token: 5
+	Flex -> Matched token: )
+	Flex -> Matched token: )
+0
+	Flex -> Matched token: (
+	Flex -> Matched token: food-at
+	Flex -> Matched token: 3
+	Flex -> Matched token: ?y
+	Flex -> Matched token: )
+0
+	Flex -> Matched token: ->
+0
+	Flex -> Matched token: (
+	Flex -> Matched token: printout t
+	Flex -> Matched token: (
+	Flex -> Matched token: packman
+	Flex -> Matched token: has
+	Flex -> Matched token: not
+	Flex -> Matched token: reached
+	Flex -> Matched token: food
+	Flex -> Matched token: )
+	Flex -> Matched token: )
+
+)
+0
+	Flex -> Matched token: (
+	Flex -> Matched token: test
+	Flex -> Matched token: 4
+	Flex -> Matched token: 4
+	Flex -> Matched token: )
+0
+	Flex -> Matched token: (
+	Flex -> Matched token: test
+	Flex -> Matched token: 7
+	Flex -> Matched token: 6
+	Flex -> Matched token: )
+0
+	Flex -> Matched token: (
+	Flex -> Matched token: test
+	Flex -> Matched token: ?k
+	Flex -> Matched token: 5
+	Flex -> Matched token: )
+0
+	Flex -> Matched token: (
+	Flex -> Matched token: bind
+	Flex -> Matched token: ?x
+	Flex -> Matched token: (
+	Flex -> ERROR, line 1 at lexeme '(' : syntax error
+		PLITHOS SWSTWN LEKSEWN: 77
+		PLITHOS SWSTWN EKFRASEWN: 10
+
+		PLITHOS LANTHASMENWN LEKSEWN: 0
+		PLITHOS LANTHASMENWN EKFRASEWN: 1
+		Bison -> PARSING FAILED.

@@ -1,0 +1,64 @@
+(+ 5 3)
+(- 7 6)
+(* 4 3)
+(/ 5 6)
+
+(+ ?var 3)
+(- 7 ?var)
+(* ?var ?var)
+(/ ?var 6)
+
+ 
+
+(+ 5 3 8)
+(- 7 6 1)
+(* 4 3 6)
+(/ 5 6 3)
+
+(+ ?var 3 ?var)
+(- 7 ?var ?var)
+(* ?var ?var 5)
+(/ ?var 6 ?var) 
+
+(= 5 5)
+(= ?var 2)
+(= 2 ?var)
+(= ?var ?var)
+(=(+ 3 6) 4) 
+(=( - 3 6) 4) 
+(=(* 3 6) 4)
+(=(/ 3 6) 4)
+(=9(+ 4 5))
+(=(+ 5 6)1)
+
+(=(- ?m 6) 4)
+(=(* 3 ?v) 4)
+(=(* 3 8) ?d)
+(=(+ ?m ?s) ?c)
+
+(TEST ?var 5)
+(TEST ?var1 ?var2)
+(test(= 6 7))
+(test(= ?r 7))
+(test(= ?r ?z))
+(test(= 5 ?z))
+
+(TEST ;KJHG 5) 
+(TEST ?var kjhgf)
+
+(READ 7)
+(READ LKJH)
+
+;Wrong
+(+ OIUY 9) 
+(* ORISMA 5) 
+(/ POIUY ?v) 
+(- ?JHUG ;JHG)
+
+(+ ?var ORISMA 1)
+(- 5 ?var ;JHG) 
+(* 6 ;JHGF #$$%^) 
+(/ ?v %&* ORISMA)
+
+(= lhg ?var) 
+(= ?var ;LKJHGF) 
